@@ -1,0 +1,131 @@
+﻿<!DOCTYPE HTML>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reglamento ajedrez </title>
+</head>
+
+<body>
+    <h1>Las reglas del ajedrez</h1>
+    <hr>
+    <!--<a href="#name"> (con #) <h2 id="name"> (sin # y dentro de <p> en este caso) para crear un enlace interno en la página web-->
+
+    <ul> <h3>ÍNDICE</h3>
+        <li><a href="#DescripciónDelJuego">Descripción del juego</a></li>
+        <li><a href="#movpiezas">Movimientos de las piezas</a></li>
+        <li><a href="#eljaque">El jaque</a></li>
+        <li><a href="#jaquemate">Jaque Mate</a></li>
+        <li><a href="#leyesdeajedrez">Leyes del ajedrez importantes</a></li>
+    </ul>
+    <hr>
+    <h2 id="DescripciónDelJuego">Descripción del juego</h2>
+    Al ajedrez siempre juegan dos personas. Con el avance de la informática ahora también podemos jugar en línea.
+    <p>Un jugador juega con las piezas blancas (en ajedrez hablamos de piezas no de fichas), y el otro jugador juega con
+        las piezas negras. Cada jugador tiene dieciséis piezas al comienzo de la partida: un rey, una dama (no se dice
+        reina), dos torres, dos alfiles, dos caballos y ocho peones.</p>
+    <p>Además de piezas necesitamos un tablero. El tablero de ajedrez, tiene 64 casillas: ocho filas y ocho columnas. El
+        tablero siempre se coloca con una casilla blanca a la derecha.</p>
+    <p>El objetivo es capturar la ficha más importante del rival, el rey, con ayuda de nuestras piezas.</p>
+    <hr>
+    <h2 id="movpiezas"> Movimientos de las piezas </h2>
+        <ul>
+            <li><h3>Movimiento de la torre</h3>
+            La torre se mueve en línea recta, horizontal o verticalmente. La torre no puede saltar sobre otras piezas, es
+            decir: todas las casillas entre la casilla donde la torre comienza su movimiento y donde termina la torre su
+            movimiento deben estar vacías.</p></li>
+
+            <li><h3>Movimiento del alfil</h3>
+            El alfil mueve en línea recta diagonal. Al igual que sucede con la torre, tampoco puede saltar sobre otras
+            piezas.</li>
+
+            <li><h3>Movimiento de la dama</h3>
+                La dama se desplaza con los movimientos combinados de la torre y el alfil, es decir, la dama puede moverse en
+                cualquier línea recta, horizontal, vertical o diagonal.</li>
+
+            <li><h3>Movimiento del caballo</h3>
+                El caballo hace un movimiento que consiste en un primer paso en una dirección horizontal o vertical, y luego un
+                paso en diagonal en una dirección hacia fuera, simulando el recorrido de una "L". El caballo salta: mientras no 
+                haya ninguna pieza aliada en la casilla de destino, el caballo puede "atravesar/saltar" las demás piezas. 
+                Para capturar una pieza con el caballo, ésta debe estar situada en la casilla de destino, no en la casilla que se salta.</li>
+
+            <li><h3>Movimiento del peón</h3>
+                El peón se mueve de manera diferente para desplazarse que para comer. Cuando un peón no toma, se mueve hacia
+                adelante pasito a pasito, es decir, de una casilla cada turno. Solo hay una excepción a esta regla que es cuando
+                el peón no se ha movido en absoluto, es decir, cuando el peón se encuentra todavía en la segunda fila: la casilla de salida.
+                Es entonces cuando el peón puede hacer un doble paso, es decir, moverse dos casillas de una vez. Por ejemplo, un peón blanco
+                en la casilla D2 se puede mover a D4. El peón solo puede comer en diagonal hacia delante y si hay una pieza en la casilla
+                correspondiente.
+                <p>Hay una regla especial, llamada “comer al paso”. Cuando un peón hace una jugada desde la segunda fila hasta la
+                cuarta (o desde la séptima hasta la quinta si tienes las piezas negras), y hay un peón enemigo en una casilla adyacente en la
+                cuarta fila (o en la quinta para las negras), este peón enemigo puede capturar nuestro peón en diagonal a la
+                casilla que era protegida por él.</p></li>
+
+            <li><h3>Movimiento del rey</h3>
+                El rey se mueve a una casilla en cualquier dirección horizontal, vertical o diagonal. Hay un tipo especial de
+                movimiento, realizado por el rey y por la torre de forma simultánea, llamado enroque.</li>
+
+            <li><h3> Enroque</h3>
+                Bajo ciertas reglas, el rey y la torre se pueden mover de forma simultánea enrocándose: 
+                el rey se mueve dos casillas hacia la derecha o hacia la izquierda y la torre se sitúa detrás de él.
+                <p>Tienen que cumplirse ciertos requisitos para realizarse: el rey que hace el enroque no ha tenido que moverse aún en la partida.
+                    La torre que hace el enroque no se ha tenido que mover tampoco.
+                    El rey no puede estar en jaque.
+                    El rey no puede pasar al enrocarse por una casilla amenazada por una pieza del rival.
+                    Tampoco puede acabar en una casilla que esté amenazada por una pieza enemiga, ya que en ese supuesto el rey
+                    estaría en jaque.
+                    Todas las casillas entre la torre y el rey antes de que se produzca el enroque deben estar vacías.
+                    El rey y la torre deben ocupar la misma fila.</p></li>
+        </ul>
+    <hr>    
+    <h2 id="eljaque">El jaque</h2>
+        Cuando el rey de un jugador puede ser capturado por una pieza del oponente, se dice que el rey está en jaque.
+        Por ejemplo, el jugador blanco mueve su torre a una posición tal que ataca al rey negro, es decir, si el negro
+        no hace nada al respecto, la torre podría tomar el rey negro en el siguiente movimiento: se dice que la torre
+        blanca da jaque. Al dar jaque al enemigo, se debe expresar verbalmente.
+    <hr>    
+    <h2 id="jaquemate">Jaque Mate</h2>
+        Cuando un jugador está en jaque, y no tiene forma de defenderse se dice que está en jaque mate y ha perdido la partida.
+        <p>Ten en cuenta que hay tres formas diferentes posibles para evitar un jaque.</p>
+        <ol>
+            <li>Mover el rey a una casilla que no esté amenazada.</li>
+            <li>Comer la pieza que da el jaque.</li>
+            <li>Interponer una pieza entre la pieza atacante y nuestro rey (básicamente un escudo)</li>
+        </ol>
+    <hr>
+    <h2 id="leyesdeajedrez"> Leyes del ajedrez importantes</h2>
+
+        <h3>El abandono y el ofrecimiento de tablas</h3>
+        Un jugador puede abandonar la partida, lo que significa que ha perdido y su oponente ha ganado. 
+        Es como tirar la toalla en boxeo.
+        <p>Después de hacer una jugada, un jugador puede proponer un empate: su oponente puede aceptar la propuesta (en
+            cuyo caso la partida termina y es un empate) o rechazar la propuesta (en cuyo caso la partida continúa).</p>
+
+        <h3>Insuficiencia de material</h3>
+        Se llega a esta situación cuando ninguno de los jugadores tiene material suficiente para dar mate al rey
+        contrario. Esto ocurre cuando en el tablero solo quedan:
+        <ul>
+            <li>Rey contra Rey</li>
+            <li>Rey y Caballo contra Rey</li>
+            <li>Rey y Caballo contra Rey y Caballo</li>
+            <li>Rey y Alfil contra rey</li>
+            <li>Rey y Alfil contra Rey y Alfil</li>
+            <li>Rey y Alfil contra Rey y Caballo</li>
+        </ul>
+       
+        <h3>Por ahogado</h3>
+        Se presenta cuando un jugador en su turno, sin estar en jaque, no puede realizar ningún movimiento legal. Esta
+        situación se llama «ahogado» y la partida concluye automáticamente en tablas.
+
+        <h3>Triple repetición de posición</h3>
+        De acuerdo al reglamento de la FIDE, la partida termina en tablas si los jugadores realizan los mismos movimientos (repetición)
+        en tres turnos seguidos. 
+
+        <h3>Regla de los cincuenta movimientos</h3>
+        Si al cabo de 50 jugadas entre ambos jugadores, no se decide la partida, y no se produce una captura o se avanza
+        un peón, la partida termina en tablas.
+        <hr>
+        <p>Vuelve a la <a href="../index.html"> página principal </a></p>    
+</body>
+
+</html>
